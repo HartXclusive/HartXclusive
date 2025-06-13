@@ -38,7 +38,7 @@
   </style>
 </head>
 <body>
-  <h1>Danny H. Tattoo</h1>
+  <h1>HartXclusive</h1>
   <p>🎨 Tattoo artist | Black & Realistic | Mohács</p>
 
   <a class="button" href="https://www.instagram.com/dannyh_art1" target="_blank">📸 Instagram</a>
