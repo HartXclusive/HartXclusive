@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HartXclusive</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    background: #111111 url('https://i.ibb.co/6y9t3Pk/tattoo-pattern-dark.jpg') center center/cover no-repeat;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .container {
+    flex: 1;
+    max-width: 480px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 12px;
+    box-shadow: 0 0 15px #a67c00aa;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #d4af37; /* arany */
+    margin: 0 0 8px;
+    letter-spacing: 3px;
+  }
+  header p {
+    font-size: 1rem;
+    line-height: 1.4;
+    white-space: pre-line;
+    color: #ddd;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 20px 0 10px;
+  }
+  .link-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 14px 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #d4af37, #b8860b);
+    color: #111;
+    box-shadow: 0 4px 6px #a67c0055;
+    transition: background 0.3s ease;
+  }
+  .link-btn:hover {
+    background: linear-gradient(90deg, #b8860b, #d4af37);
+  }
+  .gallery {
+    margin-top: 20px;
+  }
+  .gallery h2 {
+    color: #d4af37;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 4px;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+    gap: 10px;
+  }
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #a67c00cc;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      margin: 10px;
+      padding: 15px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <header>
+      <h1>HartXclusive</h1>
+      <p>⚜️ TattooArtist ⚜️  
+📩 Dm for Appointments  
+🔵 Black&amp;White Realism  
+🔵 Blackwork  
+📍Mohács, Baranya 🇭🇺</p>
+    </header>
+    <nav class="links" aria-label="Közösségi média linkek">
+      <a class="link-btn" href="https://www.instagram.com/dannyh_art1?igsh=ZnVoaTRja2EyZTc1" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a class="link-btn" href="https://www.tiktok.com/@dannyh_art1?_t=ZN-8xAWOWsLSGE&_r=1" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a class="link-btn" href="https://www.facebook.com/hartXclusive" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a class="link-btn" href="https://snapchat.com/t/cNnDqqar" target="_blank" rel="noopener noreferrer">Snapchat</a>
+    </nav>
+    <section class="gallery" aria-label="Portfólió képek">
+      <h2>Elkészült munkák</h2>
+      <div class="gallery-grid" id="gallery">
+        <!-- Ide kerülnek majd a képek -->
+        <p style="color:#999; font-style: italic;">Képek feltöltése folyamatban...</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
