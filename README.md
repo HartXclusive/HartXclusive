@@ -1,16 +1,49 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danny H. Tattoo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    a.button {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 20px;
+      background: #ff0055;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 300px;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #e6004f;
+    }
+  </style>
+</head>
+<body>
+  <h1>Danny H. Tattoo</h1>
+  <p>🎨 Tattoo artist | Black & Realistic | Mohács</p>
 
-<!--
-**HartXclusive/HartXclusive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <a class="button" href="https://www.instagram.com/dannyh_art1" target="_blank">📸 Instagram</a>
+  <a class="button" href="https://www.tiktok.com/@dannyh_art1" target="_blank">🎵 TikTok</a>
+  <a class="button" href="https://www.facebook.com/hartXclusive" target="_blank">📘 Facebook</a>
+  <a class="button" href="https://snapchat.com/t/cNnDqqar" target="_blank">👻 Snapchat</a>
+</body>
+</html>
